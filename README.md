@@ -9,5 +9,5 @@ From the readme page on the bubble tea github repo.
 To run the experiment:
 
 ```bash { name=01-grocery-list-run }
-go run cmd/choose-groceries/main.go
+go run choose-groceries/cmd/main.go
 ```
