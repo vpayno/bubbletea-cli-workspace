@@ -31,3 +31,7 @@ package.json
 
 # ignore release files
 /release/
+
+# devbox
+/.devbox
+/.venv
