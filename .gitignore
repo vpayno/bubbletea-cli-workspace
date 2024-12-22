@@ -1,0 +1,33 @@
+# Binaries for programs and plugins
+/build/
+dist/
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Test binary, built with `go test -c`
+*.test
+
+# Output of the go coverage tool, specifically when used with LiteIDE
+*.out
+.coverage.json
+
+# Dependency directories (remove the comment below to include it)
+# vendor/
+
+# build artifacts
+/cli-*
+
+# Ignore random things (usually things generaged in CI that we don't want to track).
+octocov
+
+# Node
+package-lock.json
+package.json
+
+/ci/*/.version.txt
+
+# ignore release files
+/release/
