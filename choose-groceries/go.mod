@@ -1,10 +1,11 @@
-module github.com/vpayno/bubbletea-cli-workspace
+module github.com/vpayno/bubbletea-cli-workspace/choose-groceries
 
 go 1.23
 
+require github.com/charmbracelet/bubbletea v1.2.4
+
 require (
 	github.com/aymanbagabas/go-osc52/v2 v2.0.1 // indirect
-	github.com/charmbracelet/bubbletea v1.2.4 // indirect
 	github.com/charmbracelet/lipgloss v1.0.0 // indirect
 	github.com/charmbracelet/x/ansi v0.4.5 // indirect
 	github.com/charmbracelet/x/term v0.2.1 // indirect
