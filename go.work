@@ -1,3 +1,6 @@
 go 1.23
 
-use choose-groceries
+use (
+	./choose-groceries
+	./http-fetch
+)
